@@ -1,0 +1,40 @@
+<resources>
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">Marco Mantovani\'s music</string>
+
+    <!-- Category name for arrangements [CHAR LIMIT=30] -->
+    <string name="category_arrangements">Arrangements for bands</string>
+
+    <!-- Category name for transcriptions [CHAR LIMIT=30] -->
+    <string name="category_transcriptions">Transcriptions for ensembles</string>
+
+    <!-- Category name for compositions [CHAR LIMIT=30] -->
+    <string name="category_compositions">Compositions</string>
+
+    <!-- Category name for mp3 [CHAR LIMIT=30] -->
+    <string name="category_mp3">MP3 music</string>
+
+    <!-- Add Strings in Mp3 ArrayList: item name strings -->
+    <!-- TO DO: xliff (es. Your score is: <xliff:g example="2" id="score">%d</xliff:g> out of 9</string>) -->
+    <string name="christe_name">Christe, aller Welt trost Bwv 670</string>
+    <string name="ricercare_name">Ricercare a 6</string>
+    <string name="fuga891_name">Fuga Bwv 891</string>
+    <string name="fuga538_name">Fuga Bwv 538</string>
+    <string name="ninna_name">La Ninna Nanna</string>
+    <string name="salmo_name">Salmo 130</string>
+    <string name="sonatina1_name">Sonatina in la minore - Primo tempo</string>
+    <string name="sonatina2_name">Sonatina in la minore - Secondo tempo</string>
+    <string name="sonatina3_name">Sonatina in la minore - Terzo tempo</string>
+
+    <!-- Add Strings in Mp3 ArrayList: item name strings -->
+    <string name="christe_description">autori: Bach-Mantovani</string>
+    <string name="ricercare_description">autori: Bach-Mantovani</string>
+    <string name="fuga891_description">autori: Bach-Mantovani</string>
+    <string name="fuga538_description">autori: Bach-Mantovani</string>
+    <string name="ninna_description">autore: Marco Mantovani</string>
+    <string name="salmo_description">autore: Marco Mantovani</string>
+    <string name="sonatina1_description">autore: Gianluigi Centemeri. Al pianoforte: Marco Mantovani</string>
+    <string name="sonatina2_description">autore: Gianluigi Centemeri. Al pianoforte: Marco Mantovani</string>
+    <string name="sonatina3_description">autore: Gianluigi Centemeri. Al pianoforte: Marco Mantovani</string>
+
+</resources>
