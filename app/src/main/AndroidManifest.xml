@@ -29,7 +29,15 @@
             android:name=".TranscriptionsForEnsemblesActivity"
             android:label="@string/category_transcriptions" />
         <activity
-            android:name=".ItemDetailActivity" />
+            android:name=".ItemDetailActivity"
+            android:parentActivityName="com.example.cfuri.marcomantovanismusic.Mp3Activity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Mp3Activity" />
+
+
+        </activity>
     </application>
 
 

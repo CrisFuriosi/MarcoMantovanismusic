@@ -33,7 +33,7 @@ public class TranscriptionsForEnsemblesActivity extends AppCompatActivity {
         ItemAdapter mp3Adapter = new ItemAdapter(this, mp3ArrayList);
 
         // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
-        ListView listView = findViewById(R.id.words_list);
+        ListView listView = findViewById(R.id.items_list);
 
         // Make the {@link ListView} use the {@link ArrayAdapter}.
         listView.setAdapter(mp3Adapter);

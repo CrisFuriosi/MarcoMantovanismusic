@@ -68,6 +68,8 @@ public class ItemAdapter extends ArrayAdapter<Item> {
         // Return the completed convertView to render on screen
         return convertView;
 
+
+
     }
 }
 
