@@ -7,4 +7,6 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="padding">16dp</dimen>
     <dimen name="margin">16dp</dimen>
+    <dimen name="elevation">16dp</dimen>
+    <dimen name="categoryTextSize">16sp</dimen>
 </resources>

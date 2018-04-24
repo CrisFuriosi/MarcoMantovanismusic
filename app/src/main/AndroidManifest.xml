@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"
+            android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -30,7 +31,8 @@
             android:label="@string/category_transcriptions" />
         <activity
             android:name=".ItemDetailActivity"
-            android:parentActivityName="com.example.cfuri.marcomantovanismusic.Mp3Activity">
+            android:parentActivityName="com.example.cfuri.marcomantovanismusic.Mp3Activity"
+            android:theme="@style/AppTheme">
 
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
