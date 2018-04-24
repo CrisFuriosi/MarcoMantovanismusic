@@ -22,20 +22,33 @@
     <string name="fuga538_name">Fuga Bwv 538</string>
     <string name="ninna_name">La Ninna Nanna</string>
     <string name="salmo_name">Salmo 130</string>
-    <string name="sonatina1_name">Sonatina in la minore - Primo tempo</string>
-    <string name="sonatina2_name">Sonatina in la minore - Secondo tempo</string>
-    <string name="sonatina3_name">Sonatina in la minore - Terzo tempo</string>
+    <string name="sonatina1_name">Sonatina in la minore \
+        - Primo tempo</string>
+    <string name="sonatina2_name">Sonatina in la minore \
+        - Secondo tempo</string>
+    <string name="sonatina3_name">Sonatina in la minore \
+        - Terzo tempo</string>
 
-    <!-- Add Strings in Mp3 ArrayList: item name strings -->
-    <string name="christe_description">autori: Bach-Mantovani</string>
-    <string name="ricercare_description">autori: Bach-Mantovani</string>
-    <string name="fuga891_description">autori: Bach-Mantovani</string>
-    <string name="fuga538_description">autori: Bach-Mantovani</string>
-    <string name="ninna_description">autore: Marco Mantovani</string>
-    <string name="salmo_description">autore: Marco Mantovani</string>
-    <string name="sonatina1_description">autore: Gianluigi Centemeri. Al pianoforte: Marco Mantovani</string>
-    <string name="sonatina2_description">autore: Gianluigi Centemeri. Al pianoforte: Marco Mantovani</string>
-    <string name="sonatina3_description">autore: Gianluigi Centemeri. Al pianoforte: Marco Mantovani</string>
+    <!-- Add Strings in Mp3 ArrayList: item description strings -->
+    <string name="christe_description">Autori: \
+        Bach-Mantovani</string>
+    <string name="ricercare_description">Autori: \
+        Bach-Mantovani</string>
+    <string name="fuga891_description">Autori: \
+        Bach-Mantovani</string>
+    <string name="fuga538_description">Autori: \
+        Bach-Mantovani</string>
+    <string name="ninna_description">Autore: \
+        Marco Mantovani</string>
+    <string name="salmo_description">Autore: \
+        Marco Mantovani</string>
+    <string name="sonatina1_description">Autore: Gianluigi Centemeri \
+        Al pianoforte: M. Mantovani</string>
+    <string name="sonatina2_description">Autore: Gianluigi Centemeri \
+        Al pianoforte: M. Mantovani</string>
+    <string name="sonatina3_description">Autore: Gianluigi Centemeri \
+        Al pianoforte: M. Mantovani</string>
+
     <string name="resource_image">resource image</string>
 
 </resources>

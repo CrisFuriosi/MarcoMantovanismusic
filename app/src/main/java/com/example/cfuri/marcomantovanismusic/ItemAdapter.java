@@ -37,7 +37,7 @@ public class ItemAdapter extends ArrayAdapter<Item> {
      * @param position: the position in the list of data that should be displayed in the list item convertView.
      * @param convertView: the recycled convertView to populate.
      * @param parent: the parent ViewGroup that is used for inflation.
-     * @return The View for the position in the AdapterView.
+     * @return View based on position.
     */
     @NonNull
     @Override
@@ -61,8 +61,8 @@ public class ItemAdapter extends ArrayAdapter<Item> {
         ImageView itemImageView = convertView.findViewById(R.id.item_image_view);
 
        // Populate the data into the template convertView using the data object
-        itemNameTextView.setText(currentItem.getItemDescriptionStringID());
-        itemDescriptionTextView.setText(currentItem.getItemNameStringID());
+        itemNameTextView.setText(currentItem.getItemNameStringID());
+        itemDescriptionTextView.setText(currentItem.getItemDescriptionStringID());
         itemImageView.setImageResource(currentItem.getItemImageID());
 
         // Return the completed convertView to render on screen

@@ -19,27 +19,23 @@
         </activity>
         <activity
             android:name=".ArrangementsForBandsActivity"
-            android:label="@string/category_arrangements" />
+            android:label="@string/category_arrangements"
+            android:parentActivityName="com.example.cfuri.marcomantovanismusic.MainActivity"/>
         <activity
             android:name=".CompositionsActivity"
-            android:label="@string/category_compositions" />
+            android:label="@string/category_compositions"
+            android:parentActivityName="com.example.cfuri.marcomantovanismusic.MainActivity"/>
         <activity
             android:name=".Mp3Activity"
-            android:label="@string/category_mp3" />
+            android:label="@string/category_mp3"
+            android:parentActivityName="com.example.cfuri.marcomantovanismusic.MainActivity"/>
         <activity
             android:name=".TranscriptionsForEnsemblesActivity"
-            android:label="@string/category_transcriptions" />
+            android:label="@string/category_transcriptions"
+            android:parentActivityName="com.example.cfuri.marcomantovanismusic.MainActivity"/>
         <activity
             android:name=".ItemDetailActivity"
-            android:parentActivityName="com.example.cfuri.marcomantovanismusic.Mp3Activity"
-            android:theme="@style/AppTheme">
-
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".Mp3Activity" />
-
-
-        </activity>
+            android:parentActivityName="com.example.cfuri.marcomantovanismusic.Mp3Activity"/>
     </application>
 
 

@@ -2,11 +2,21 @@
 <resources>
     <!-- Height of each item -->
     <dimen name="list_item_height">88dp</dimen>
-    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <!-- Default screen margins -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- default margin and padding -->
     <dimen name="padding">16dp</dimen>
     <dimen name="margin">16dp</dimen>
+
+    <!-- default elevation (API >= 21) -->
     <dimen name="elevation">16dp</dimen>
-    <dimen name="categoryTextSize">16sp</dimen>
+
+    <!-- text dimensions -->
+    <dimen name="biggerTextSize">16sp</dimen>
+
+    <!-- list image dimensions -->
+    <dimen name="list_image_dimension">48dp</dimen>
 </resources>

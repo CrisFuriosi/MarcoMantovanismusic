@@ -24,15 +24,15 @@ public class Mp3Activity extends AppCompatActivity {
         final ArrayList<Item> itemArrayList = new ArrayList<>();
 
         //Add Strings in Mp3 ArrayList
-        itemArrayList.add(new Item(R.string.christe_name, R.string.christe_description, R.drawable.empty_positioner));
-        itemArrayList.add(new Item(R.string.ricercare_name, R.string.ricercare_description, R.drawable.empty_positioner));
-        itemArrayList.add(new Item(R.string.fuga891_name, R.string.fuga891_description, R.drawable.empty_positioner));
-        itemArrayList.add(new Item(R.string.fuga538_name, R.string.fuga538_description, R.drawable.empty_positioner));
-        itemArrayList.add(new Item(R.string.ninna_name, R.string.ninna_description, R.drawable.empty_positioner));
-        itemArrayList.add(new Item(R.string.salmo_name, R.string.salmo_description, R.drawable.empty_positioner));
-        itemArrayList.add(new Item(R.string.sonatina1_name, R.string.sonatina1_description, R.drawable.empty_positioner));
-        itemArrayList.add(new Item(R.string.sonatina2_name, R.string.sonatina2_description, R.drawable.empty_positioner));
-        itemArrayList.add(new Item(R.string.sonatina3_name, R.string.sonatina3_description, R.drawable.empty_positioner));
+        itemArrayList.add(new Item(R.string.christe_name, R.string.christe_description, R.drawable.mp3_activity_image));
+        itemArrayList.add(new Item(R.string.ricercare_name, R.string.ricercare_description, R.drawable.mp3_activity_image));
+        itemArrayList.add(new Item(R.string.fuga891_name, R.string.fuga891_description, R.drawable.mp3_activity_image));
+        itemArrayList.add(new Item(R.string.fuga538_name, R.string.fuga538_description, R.drawable.mp3_activity_image));
+        itemArrayList.add(new Item(R.string.ninna_name, R.string.ninna_description, R.drawable.mp3_activity_image));
+        itemArrayList.add(new Item(R.string.salmo_name, R.string.salmo_description, R.drawable.mp3_activity_image));
+        itemArrayList.add(new Item(R.string.sonatina1_name, R.string.sonatina1_description, R.drawable.mp3_activity_image));
+        itemArrayList.add(new Item(R.string.sonatina2_name, R.string.sonatina2_description, R.drawable.mp3_activity_image));
+        itemArrayList.add(new Item(R.string.sonatina3_name, R.string.sonatina3_description, R.drawable.mp3_activity_image));
 
         // Create an {@link ArrayAdapter}.
         final ItemAdapter mp3Adapter = new ItemAdapter(this, itemArrayList);
@@ -63,6 +63,7 @@ public class Mp3Activity extends AppCompatActivity {
                 startActivity(itemDetailIntent);
             }
         });
+
     }
 }
 

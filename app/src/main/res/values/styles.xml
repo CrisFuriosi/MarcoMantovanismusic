@@ -20,18 +20,22 @@
         <item name="colorPrimaryDark">@color/primary_dark</item>
     </style>
 
-    <!-- Style for a list/category -->
+    <!-- Style for category list -->
     <style name="CategoryStyle">
         <item name="android:background">@drawable/rounded_container</item>
+        <item xmlns:tools="http://schemas.android.com/tools" name="android:elevation" tools:targetApi="21">@dimen/elevation</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">@dimen/list_item_height</item>
         <item name="android:gravity">center_vertical</item>
         <item name="android:padding">@dimen/padding</item>
         <item name="android:layout_margin">@dimen/margin</item>
         <item name="android:textStyle">bold</item>
-        <item name="android:textSize">@dimen/categoryTextSize</item>
-        <item xmlns:tools="http://schemas.android.com/tools" name="android:elevation" tools:targetApi="21">
-            @dimen/elevation
-        </item>
+        <item name="android:textSize">@dimen/biggerTextSize</item>
+    </style>
+
+    <!-- Style for item list -->
+    <style name="ItemListStyle">
+        <item name="android:background">@drawable/rounded_container</item>
+        <item name="android:layout_margin">@dimen/margin</item>
     </style>
 </resources>
