@@ -35,6 +35,7 @@
             android:parentActivityName="com.example.cfuri.marcomantovanismusic.MainActivity"/>
         <activity
             android:name=".ItemDetailActivity"
+            android:label="@string/detail_mp3"
             android:parentActivityName="com.example.cfuri.marcomantovanismusic.Mp3Activity"/>
     </application>
 

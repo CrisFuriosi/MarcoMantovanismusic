@@ -6,15 +6,21 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
+
 import java.util.ArrayList;
 
 public class Mp3Activity extends AppCompatActivity {
+
+    // Declare variables
+    int itemImageId;
+    String currentActivity;
+    Item currentItem;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        //Link this Java file with item XML file
+        // Link this Java file with item XML file
         setContentView(R.layout.activity_item_list);
 
         // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
@@ -46,9 +52,11 @@ public class Mp3Activity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> adapter, View view, int position, long arg) {
 
                 // Find current item
-                Item currentItem = mp3Adapter.getItem(position);
+                currentItem = mp3Adapter.getItem(position);
                 // Find current Activity
-                String currentActivity = (String) getTitle();
+                currentActivity = (String) getTitle();
+                // Select the associated image to show
+                itemImageId = R.drawable.mp3_activity_image;
 
                 // Start Intent
                 Intent itemDetailIntent = new Intent(getBaseContext(), ItemDetailActivity.class);
@@ -56,15 +64,15 @@ public class Mp3Activity extends AppCompatActivity {
                 // Pass int name and int description to ItemDetailActivity
                 itemDetailIntent.putExtra("item_name", currentItem.getItemNameStringID());
                 itemDetailIntent.putExtra("item_description", currentItem.getItemDescriptionStringID());
-                itemDetailIntent.putExtra("item_image", currentItem.getItemImageID());
+                itemDetailIntent.putExtra("item_image", itemImageId);
                 itemDetailIntent.putExtra("current_activity_name", currentActivity);
 
                 // Start ItemDetailActivity
                 startActivity(itemDetailIntent);
             }
         });
-
     }
 }
+
 
 

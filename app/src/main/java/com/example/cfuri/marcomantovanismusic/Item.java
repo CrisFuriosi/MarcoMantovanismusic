@@ -1,21 +1,23 @@
 package com.example.cfuri.marcomantovanismusic;
 
 /*
-{@link Item} represents a vocabulary word. Contains default and Miwok translations for the word.
+{@link Item} represents a music item. Contains item text, item description.
+//TODO: insert item type
  */
+
 public class Item {
 
     // State: Variable declaration
     private int mItemNameText;
     private int mItemDescriptionText;
-    private int mItemImageId;
+    private int mItemImage;
 
     // Create a new item object. Assign int string/song name ID, int string/song description ID, int image ID
-    public Item(int itemNameText, int itemDescriptionText, int itemImageId) {
+    public Item(int itemNameText, int itemDescriptionText, int itemImage) {
         mItemNameText = itemNameText;
         mItemDescriptionText = itemDescriptionText;
-        mItemImageId = itemImageId;
-    }
+        mItemImage = itemImage;
+        }
 
     // Method: Output int string/name ID
     public int getItemNameStringID() {
@@ -27,8 +29,9 @@ public class Item {
         return mItemDescriptionText;
     }
 
-    // Method: Output int image ID
+    // Method: Output int string/description ID
     public int getItemImageID() {
-        return mItemImageId;
+        return mItemImage;
     }
+
 }

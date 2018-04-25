@@ -63,6 +63,8 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+
+        // TODO: working on mp3 category
         // Find the View that shows the mp3_text_view category
         TextView mp3 = findViewById(R.id.mp3_text_view);
 
@@ -71,6 +73,7 @@ public class MainActivity extends AppCompatActivity {
             // The code in this method will be executed when the mp3_text_view category is clicked on.
             @Override
             public void onClick(View view) {
+
                 // Create a new intent to open the {@link Mp3Activity}
                 Intent mp3Intent = new Intent(MainActivity.this, Mp3Activity.class);
 
