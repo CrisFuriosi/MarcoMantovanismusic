@@ -30,15 +30,15 @@ public class Mp3Activity extends AppCompatActivity {
         final ArrayList<Item> itemArrayList = new ArrayList<>();
 
         //Add Strings in Mp3 ArrayList
-        itemArrayList.add(new Item(R.string.christe_name, R.string.christe_description, R.drawable.mp3_activity_image));
-        itemArrayList.add(new Item(R.string.ricercare_name, R.string.ricercare_description, R.drawable.mp3_activity_image));
-        itemArrayList.add(new Item(R.string.fuga891_name, R.string.fuga891_description, R.drawable.mp3_activity_image));
-        itemArrayList.add(new Item(R.string.fuga538_name, R.string.fuga538_description, R.drawable.mp3_activity_image));
-        itemArrayList.add(new Item(R.string.ninna_name, R.string.ninna_description, R.drawable.mp3_activity_image));
-        itemArrayList.add(new Item(R.string.salmo_name, R.string.salmo_description, R.drawable.mp3_activity_image));
-        itemArrayList.add(new Item(R.string.sonatina1_name, R.string.sonatina1_description, R.drawable.mp3_activity_image));
-        itemArrayList.add(new Item(R.string.sonatina2_name, R.string.sonatina2_description, R.drawable.mp3_activity_image));
-        itemArrayList.add(new Item(R.string.sonatina3_name, R.string.sonatina3_description, R.drawable.mp3_activity_image));
+        itemArrayList.add(new Item(R.string.christe_name, R.string.christe_description, R.drawable.mp3_activity_image, R.string.christe_url));
+        itemArrayList.add(new Item(R.string.ricercare_name, R.string.ricercare_description, R.drawable.mp3_activity_image, R.string.ricercare_url));
+        itemArrayList.add(new Item(R.string.fuga891_name, R.string.fuga891_description, R.drawable.mp3_activity_image, R.string.fuga891_url));
+        itemArrayList.add(new Item(R.string.fuga538_name, R.string.fuga538_description, R.drawable.mp3_activity_image, R.string.fuga538_url));
+        itemArrayList.add(new Item(R.string.ninna_name, R.string.ninna_description, R.drawable.mp3_activity_image, R.string.ninna_url));
+        itemArrayList.add(new Item(R.string.salmo_name, R.string.salmo_description, R.drawable.mp3_activity_image, R.string.salmo_url));
+        itemArrayList.add(new Item(R.string.sonatina1_name, R.string.sonatina1_description, R.drawable.mp3_activity_image, R.string.sonatina1_url));
+        itemArrayList.add(new Item(R.string.sonatina2_name, R.string.sonatina2_description, R.drawable.mp3_activity_image, R.string.sonatina2_url));
+        itemArrayList.add(new Item(R.string.sonatina3_name, R.string.sonatina3_description, R.drawable.mp3_activity_image, R.string.sonatina3_url));
 
         // Create an {@link ArrayAdapter}.
         final ItemAdapter mp3Adapter = new ItemAdapter(this, itemArrayList);
@@ -55,8 +55,6 @@ public class Mp3Activity extends AppCompatActivity {
                 currentItem = mp3Adapter.getItem(position);
                 // Find current Activity
                 currentActivity = (String) getTitle();
-                // Select the associated image to show
-                itemImageId = R.drawable.mp3_activity_image;
 
                 // Start Intent
                 Intent itemDetailIntent = new Intent(getBaseContext(), ItemDetailActivity.class);
@@ -64,7 +62,8 @@ public class Mp3Activity extends AppCompatActivity {
                 // Pass int name and int description to ItemDetailActivity
                 itemDetailIntent.putExtra("item_name", currentItem.getItemNameStringID());
                 itemDetailIntent.putExtra("item_description", currentItem.getItemDescriptionStringID());
-                itemDetailIntent.putExtra("item_image", itemImageId);
+                itemDetailIntent.putExtra("item_image", currentItem.getItemImageID());
+                itemDetailIntent.putExtra("item_url", currentItem.getItemUrlID());
                 itemDetailIntent.putExtra("current_activity_name", currentActivity);
 
                 // Start ItemDetailActivity

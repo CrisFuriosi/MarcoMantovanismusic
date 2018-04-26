@@ -24,48 +24,36 @@
         style="@style/ItemListStyle"
         android:id="@+id/detail_activity_item_image"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="wrap_content"
         android:layout_weight="1"
         android:padding="@dimen/padding"
         android:contentDescription="@string/resource_image"
         tools:src="@drawable/empty_positioner"/>
 
     <SeekBar
-        android:id="@+id/seek_bar"
+        android:id="@+id/detail_activity_item_seek_bar"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:layout_weight="0"
-        android:paddingLeft="@dimen/activity_horizontal_margin"
-        android:paddingRight="@dimen/activity_horizontal_margin" />
+        android:padding="@dimen/padding"
+        android:layout_height="wrap_content"  />
 
     <LinearLayout
+        android:layout_weight="0"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="0"
-        android:gravity="center_horizontal"
-        android:orientation="horizontal">
-
-        <android.support.v7.widget.AppCompatButton
-            android:id="@+id/rewind_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:alpha="0.5"
-            tools:text="rewind" />
-
-        <android.support.v7.widget.AppCompatButton
-            android:id="@+id/play_pause_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/activity_vertical_margin"
-            android:alpha="0.5"
-            tools:text="pause" />
-
-        <android.support.v7.widget.AppCompatButton
-            android:id="@+id/forward_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:alpha="0.5"
-            tools:text="forward" />
+        >
+    <Button
+        style="@style/ItemListStyle"
+        android:id="@+id/detail_activity_play_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play" />
+    <Button
+        style="@style/ItemListStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/detail_activity_pause_button"
+        android:text="Pause" />
 
     </LinearLayout>
 

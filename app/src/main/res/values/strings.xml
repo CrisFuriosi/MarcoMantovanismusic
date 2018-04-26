@@ -2,20 +2,20 @@
     <!-- Title for the application. [CHAR LIMIT=12] -->
     <string name="app_name">Marco Mantovani\'s music</string>
 
-    <!-- Category name for arrangements [CHAR LIMIT=30] -->
+    <!-- Generic category descriptive image -->
+    <string name="resource_image">Category descriptive image</string>
+
+    <!-- Category names [CHAR LIMIT=30] -->
     <string name="category_arrangements">Arrangements for bands</string>
-
-    <!-- Category name for transcriptions [CHAR LIMIT=30] -->
     <string name="category_transcriptions">Transcriptions for ensembles</string>
-
-    <!-- Category name for compositions [CHAR LIMIT=30] -->
     <string name="category_compositions">Compositions</string>
-
-    <!-- Category name for mp3 [CHAR LIMIT=30] -->
     <string name="category_mp3">MP3 music</string>
 
-    <!-- Add Strings in Mp3 ArrayList: item name strings -->
-    <!-- TO DO: xliff (es. Your score is: <xliff:g example="2" id="score">%d</xliff:g> out of 9</string>) -->
+    <!-- Mp3 detail activity name [CHAR LIMIT=30] -->
+    <string name="detail_mp3">Play Marco\'s music</string>
+
+    <!-- Strings in Mp3 ArrayList: item name strings -->
+    <!-- TODO: xliff (es. Your score is: <xliff:g example="2" id="score">%d</xliff:g> out of 9</string>) -->
     <string name="christe_name">Christe, aller Welt trost Bwv 670</string>
     <string name="ricercare_name">Ricercare a 6</string>
     <string name="fuga891_name">Fuga Bwv 891</string>
@@ -29,7 +29,7 @@
     <string name="sonatina3_name">Sonatina in la minore \
         - Terzo tempo</string>
 
-    <!-- Add Strings in Mp3 ArrayList: item description strings -->
+    <!-- Strings in Mp3 ArrayList: item description strings -->
     <string name="christe_description">Autori: \
         Bach-Mantovani</string>
     <string name="ricercare_description">Autori: \
@@ -49,7 +49,15 @@
     <string name="sonatina3_description">Autore: Gianluigi Centemeri \
         Al pianoforte: M. Mantovani</string>
 
-    <string name="resource_image">resource image</string>
-    <string name="detail_mp3">Play Marco\'s music</string>
+    <!-- Strings in Mp3 ArrayList: item URL strings -->
+    <string name="christe_url"></string>
+    <string name="ricercare_url">http://www.marcomantovani.name/wp/?wpfb_dl=60</string>
+    <string name="fuga891_url">http://www.marcomantovani.name/wp/?wpfb_dl=59</string>
+    <string name="fuga538_url">http://www.marcomantovani.name/wp/?wpfb_dl=58</string>
+    <string name="ninna_url">http://www.marcomantovani.name/wp/?wpfb_dl=57</string>
+    <string name="salmo_url">http://www.marcomantovani.name/wp/?wpfb_dl=56</string>
+    <string name="sonatina1_url">http://www.marcomantovani.name/wp/?wpfb_dl=31</string>
+    <string name="sonatina2_url">http://www.marcomantovani.name/wp/?wpfb_dl=24</string>
+    <string name="sonatina3_url">http://www.marcomantovani.name/wp/?wpfb_dl=23</string>
 
 </resources>

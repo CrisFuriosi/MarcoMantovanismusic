@@ -11,12 +11,14 @@ public class Item {
     private int mItemNameText;
     private int mItemDescriptionText;
     private int mItemImage;
+    private int mItemUrl;
 
-    // Create a new item object. Assign int string/song name ID, int string/song description ID, int image ID
-    public Item(int itemNameText, int itemDescriptionText, int itemImage) {
+    // Create a new item object. Assign int string/song name ID, int string/song description ID, int image ID, int URL ID
+    public Item(int itemNameText, int itemDescriptionText, int itemImage, int itemUrl) {
         mItemNameText = itemNameText;
         mItemDescriptionText = itemDescriptionText;
         mItemImage = itemImage;
+        mItemUrl = itemUrl;
         }
 
     // Method: Output int string/name ID
@@ -34,4 +36,8 @@ public class Item {
         return mItemImage;
     }
 
+    // Method: Output int URL ID
+    public int getItemUrlID() {
+        return mItemUrl;
+    }
 }
