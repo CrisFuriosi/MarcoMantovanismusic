@@ -12,7 +12,6 @@ import java.util.ArrayList;
 public class Mp3Activity extends AppCompatActivity {
 
     // Declare variables
-    int itemImageId;
     String currentActivity;
     Item currentItem;
 

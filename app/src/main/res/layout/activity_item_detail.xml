@@ -11,7 +11,7 @@
 
     <TextView
         android:id="@+id/detail_activity_item_name"
-        style="@style/ItemListStyle"
+        style="@style/WhiteRoundedStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0"
@@ -21,7 +21,7 @@
         tools:text="song name" />
 
     <ImageView
-        style="@style/ItemListStyle"
+        style="@style/WhiteRoundedStyle"
         android:id="@+id/detail_activity_item_image"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -31,6 +31,7 @@
         tools:src="@drawable/empty_positioner"/>
 
     <SeekBar
+        style="@style/WhiteRoundedStyle"
         android:id="@+id/detail_activity_item_seek_bar"
         android:layout_width="match_parent"
         android:layout_weight="0"
@@ -38,18 +39,19 @@
         android:layout_height="wrap_content"  />
 
     <LinearLayout
+        android:gravity="center"
         android:layout_weight="0"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        >
+        android:layout_height="wrap_content">
+
     <Button
-        style="@style/ItemListStyle"
+        style="@style/WhiteRoundedStyle"
         android:id="@+id/detail_activity_play_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Play" />
     <Button
-        style="@style/ItemListStyle"
+        style="@style/WhiteRoundedStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/detail_activity_pause_button"

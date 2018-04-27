@@ -50,7 +50,7 @@
         Al pianoforte: M. Mantovani</string>
 
     <!-- Strings in Mp3 ArrayList: item URL strings -->
-    <string name="christe_url"></string>
+    <string name="christe_url">http://www.marcomantovani.name/wp/?wpfb_dl=61</string>
     <string name="ricercare_url">http://www.marcomantovani.name/wp/?wpfb_dl=60</string>
     <string name="fuga891_url">http://www.marcomantovani.name/wp/?wpfb_dl=59</string>
     <string name="fuga538_url">http://www.marcomantovani.name/wp/?wpfb_dl=58</string>
