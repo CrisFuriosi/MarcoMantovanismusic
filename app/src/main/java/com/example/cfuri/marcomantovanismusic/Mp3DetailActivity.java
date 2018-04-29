@@ -1,17 +1,17 @@
 //https://www.hrupin.com/2011/02/example-of-streaming-mp3-mediafile-with-android-mediaplayer-class
 package com.example.cfuri.marcomantovanismusic;
 
-import android.app.Activity;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.Handler;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
-public class ItemDetailActivity extends Activity {
+public class Mp3DetailActivity extends AppCompatActivity {
 
     private MediaPlayer mediaPlayer = null;
     private Handler handler = new Handler();

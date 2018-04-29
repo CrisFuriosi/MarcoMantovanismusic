@@ -24,6 +24,12 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
+    TextView arrangements;
+    int category;
+    TextView compositions;
+    TextView transcriptions;
+    TextView mp3;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,41 +38,47 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // Find the View that shows the arrangements_text_view category
-        TextView arrangements = findViewById(R.id.arrangements_text_view);
+        arrangements = findViewById(R.id.arrangements_text_view);
+        category = R.string.category_arrangements;
 
         // Set a click listener on that View
         arrangements.setOnClickListener(new OnClickListener() {
             // The code in this method will be executed when the arrangements_text_view category is clicked on.
             @Override
             public void onClick(View view) {
-                // Create a new intent to open the {@link ArrangementsForBandsActivity}
-                Intent arrangementsIntent = new Intent(MainActivity.this, ArrangementsForBandsActivity.class);
+                openMusicSheetPdfActivity ();
 
-                // Start the new activity
-                startActivity(arrangementsIntent);
             }
         });
 
         // Find the View that shows the compositions_text_view category
-        TextView compositions = findViewById(R.id.compositions_text_view);
+        compositions = findViewById(R.id.compositions_text_view);
 
         // Set a click listener on that View
         compositions.setOnClickListener(new OnClickListener() {
-            // The code in this method will be executed when the compositions_text_view category is clicked on.
+            // The code in this method will be executed when the arrangements_text_view category is clicked on.
             @Override
             public void onClick(View view) {
-                // Create a new intent to open the {@link CompositionsActivity}
-                Intent compositionsIntent = new Intent(MainActivity.this, CompositionsActivity.class);
-
-                // Start the new activity
-                startActivity(compositionsIntent);
+                category = R.string.category_compositions;
+                openMusicSheetPdfActivity ();
             }
         });
 
+        // Find the View that shows the transcriptions_text_view category
+        transcriptions = findViewById(R.id.transcriptions_text_view);
 
-        // TODO: working on mp3 category
+        // Set a click listener on that View
+        transcriptions.setOnClickListener(new OnClickListener() {
+            // The code in this method will be executed when the arrangements_text_view category is clicked on.
+            @Override
+            public void onClick(View view) {
+                category = R.string.category_transcriptions;
+                openMusicSheetPdfActivity ();
+            }
+        });
+
         // Find the View that shows the mp3_text_view category
-        TextView mp3 = findViewById(R.id.mp3_text_view);
+        mp3 = findViewById(R.id.mp3_text_view);
 
         // Set a click listener on that View
         mp3.setOnClickListener(new OnClickListener() {
@@ -81,24 +93,21 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(mp3Intent);
             }
         });
+    }
 
-        // Find the View that shows the transcriptions_text_view category
-        TextView transcriptions = findViewById(R.id.transcriptions_text_view);
+    // method openMusicSheetPdfActivity: open MusicSheetPdfActivity trough intent and send String category
+    void openMusicSheetPdfActivity() {
 
-        // Set a click listener on that View
-        transcriptions.setOnClickListener(new OnClickListener() {
-            // The code in this method will be executed when the transcriptions_text_view category is clicked on.
-            @Override
-            public void onClick(View view) {
-                // Create a new intent to open the {@link TranscriptionsForEnsemblesActivity}
-                Intent transcriptionsIntent = new Intent(MainActivity.this, TranscriptionsForEnsemblesActivity.class);
+        // Create a new intent to open the {@link MusicSheetPdfActivity}
+        Intent categoryIntent = new Intent(this, MusicSheetPdfActivity.class);
 
-                // Start the new activity
-                startActivity(transcriptionsIntent);
-            }
-        });
+        // Pass String category to MusicSheetPdfActivity
+        categoryIntent.putExtra("category", category);
 
-        }
+        // Start the new activity
+        startActivity(categoryIntent);
+
+    }
 
 
 }

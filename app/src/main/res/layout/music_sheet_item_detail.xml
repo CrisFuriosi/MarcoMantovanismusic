@@ -14,48 +14,27 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0"
+        android:gravity="center"
         android:textSize="@dimen/biggerTextSize"
         android:textStyle="bold"
-        android:gravity="center"
-        tools:text="song name" />
+        tools:text="music sheet name" />
 
     <ImageView
-        style="@style/WhiteRoundedStyle"
         android:id="@+id/detail_activity_item_image"
+        style="@style/WhiteRoundedStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:padding="@dimen/padding"
         android:contentDescription="@string/resource_image"
-        tools:src="@drawable/mp3_image"/>
-
-    <SeekBar
-        style="@style/WhiteRoundedStyle"
-        android:id="@+id/detail_activity_item_seek_bar"
-        android:layout_width="match_parent"
-        android:layout_weight="0"
         android:padding="@dimen/padding"
-        android:layout_height="wrap_content"  />
-
-    <LinearLayout
-        android:gravity="center"
-        android:layout_weight="0"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        tools:src="@drawable/pdf_image" />
 
     <Button
-        style="@style/WhiteRoundedStyle"
         android:id="@+id/detail_activity_play_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/mp3_play_button" />
-    <Button
         style="@style/WhiteRoundedStyle"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/detail_activity_pause_button"
-        android:text="@string/mp3_pause_button" />
-
-    </LinearLayout>
+        android:text="@string/pdf_download_button" />
 
 </LinearLayout>
+

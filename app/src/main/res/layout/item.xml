@@ -29,7 +29,7 @@
             android:layout_height="@dimen/list_image_dimension"
             android:contentDescription="@string/resource_image"
             android:layout_margin="@dimen/margin"
-            tools:src="@drawable/mp3_activity_image" />
+            tools:src="@drawable/mp3_image" />
 
         <TextView
             android:id="@+id/item_description_text_view"
