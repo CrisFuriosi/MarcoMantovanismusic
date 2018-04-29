@@ -14,7 +14,7 @@ import android.widget.TextView;
 public class Mp3DetailActivity extends AppCompatActivity {
 
     private MediaPlayer mediaPlayer = null;
-    private Handler handler = new Handler();
+    private final Handler handler = new Handler();
     private double startTime = 0;
     private SeekBar seekBar = null;
     private Runnable updateBar;
@@ -37,7 +37,6 @@ public class Mp3DetailActivity extends AppCompatActivity {
         int itemDetailName = getIntent().getIntExtra("item_name", 0);
         int itemDetailImage = getIntent().getIntExtra("item_image", 0);
         int itemDetailUrl = getIntent().getIntExtra("item_url", 0);
-        String itemActivity = getIntent().getStringExtra("current_activity_name");
 
         // Assign variable content to views in activity_item_detail XML
         nameTextView.setText(getString(itemDetailName));
@@ -78,14 +77,14 @@ public class Mp3DetailActivity extends AppCompatActivity {
     }
 
     // play method (used on play Button)
-    public void play() {
+    private void play() {
         mediaPlayer.start();
         seekBar.setMax(mediaPlayer.getDuration());
         handler.postDelayed(updateBar, 100);
     }
 
     //pause method (used on pause Button)
-    public void pause() {
+    private void pause() {
         mediaPlayer.pause();
     }
 

@@ -7,12 +7,12 @@ import android.widget.TextView;
 
 public class MusicSheetPdfDetailActivity extends AppCompatActivity{
 
-    TextView nameTextView;
-    ImageView drawableImageView;
+    private TextView nameTextView;
+    private ImageView drawableImageView;
 
-    int itemDetailName;
-    int itemDetailImage;
-    int category;
+    private int itemDetailName;
+    private int itemDetailImage;
+    private int category;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -12,8 +12,8 @@ import java.util.ArrayList;
 public class Mp3Activity extends AppCompatActivity {
 
     // Declare variables
-    String currentActivity;
-    Item currentItem;
+    private String currentActivity;
+    private Item currentItem;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

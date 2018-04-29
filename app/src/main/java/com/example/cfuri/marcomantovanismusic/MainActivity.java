@@ -24,11 +24,11 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    TextView arrangements;
-    int category;
-    TextView compositions;
-    TextView transcriptions;
-    TextView mp3;
+    private TextView arrangements;
+    private int category;
+    private TextView compositions;
+    private TextView transcriptions;
+    private TextView mp3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -96,7 +96,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     // method openMusicSheetPdfActivity: open MusicSheetPdfActivity trough intent and send String category
-    void openMusicSheetPdfActivity() {
+    private void openMusicSheetPdfActivity() {
 
         // Create a new intent to open the {@link MusicSheetPdfActivity}
         Intent categoryIntent = new Intent(this, MusicSheetPdfActivity.class);

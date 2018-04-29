@@ -11,9 +11,6 @@
     <string name="category_compositions">Compositions</string>
     <string name="mp3">MP3 music</string>
 
-    <!-- Mp3 detail activity name [CHAR LIMIT=30] -->
-    <string name="detail_mp3">Play Marco\'s music</string>
-
     <!-- Strings in Arrangements ArrayList: item name strings -->
     <string name="arragements_natale_name">E\' Natale ! Partitura e parti per Orchestra di fiati e percussioni</string>
     <string name="arragements_assolo_name">Assolo per Banda</string>
@@ -103,7 +100,7 @@
     <string name="transcriptions_cinema_name">Tema da "Nuovo Cinema Paradiso"</string>
     <string name="transcriptions_lieben_name">Wer Nur Den Lieben Gott Läßt Walten (BWV 647)</string>
     <string name="transcriptions_ricercare_name">Ricercare a 6 (BWV 1079)</string>
-    <string name="transcriptions_tiefer_name">Aus Tiefer Not Schrei\' Ich Zu Dir (BWV 686)</string>
+    <string name="transcriptions_thiefer_name">Aus Tiefer Not Schrei\' Ich Zu Dir (BWV 686)</string>
     <string name="transcriptions_thron_name">Vor Deinen Thron Tret\' Ich</string>
     <string name="transcriptions_trost_name">Christe, Aller Welt Trost (BWV 670)</string>
     

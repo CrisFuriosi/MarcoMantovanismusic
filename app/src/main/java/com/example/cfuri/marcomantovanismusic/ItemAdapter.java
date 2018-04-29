@@ -20,12 +20,12 @@ import java.util.ArrayList;
  */
 
 // constructor
-public class ItemAdapter extends ArrayAdapter<Item> {
+class ItemAdapter extends ArrayAdapter<Item> {
 
     /* @param context: the current context. Used to inflate the layout file.
      * @param itemArrayList: a list of Item objects to display
      */
-    public ItemAdapter(@NonNull Context context, ArrayList<Item> itemArrayList) {
+    ItemAdapter(@NonNull Context context, ArrayList<Item> itemArrayList) {
 
         /* As this is not a single text, the adapter is not using the second argument
          * so, it can be any value (e.g.: 0).
@@ -38,7 +38,7 @@ public class ItemAdapter extends ArrayAdapter<Item> {
      * @param convertView: the recycled convertView to populate.
      * @param parent: the parent ViewGroup that is used for inflation.
      * @return View based on position.
-    */
+     */
     @NonNull
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
@@ -60,14 +60,14 @@ public class ItemAdapter extends ArrayAdapter<Item> {
         TextView itemDescriptionTextView = convertView.findViewById(R.id.item_description_text_view);
         ImageView itemImageView = convertView.findViewById(R.id.item_image_view);
 
-       // Populate the data into the template convertView using the data object
+        // Populate the data into the template convertView using the data object
+
         itemNameTextView.setText(currentItem.getItemNameStringID());
         itemDescriptionTextView.setText(currentItem.getItemDescriptionStringID());
         itemImageView.setImageResource(currentItem.getItemImageID());
 
         // Return the completed convertView to render on screen
         return convertView;
-
 
 
     }

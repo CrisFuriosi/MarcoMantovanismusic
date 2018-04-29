@@ -5,16 +5,16 @@ package com.example.cfuri.marcomantovanismusic;
 //TODO: insert item type
  */
 
-public class Item {
+class Item {
 
     // State: Variable declaration
-    private int mItemNameText;
-    private int mItemDescriptionText;
-    private int mItemImage;
-    private int mItemUrl;
+    private final int mItemNameText;
+    private final int mItemDescriptionText;
+    private final int mItemImage;
+    private final int mItemUrl;
 
     // Create a new item object. Assign int string/song name ID, int string/song description ID, int image ID, int URL ID
-    public Item(int itemNameText, int itemDescriptionText, int itemImage, int itemUrl) {
+    Item(int itemNameText, int itemDescriptionText, int itemImage, int itemUrl) {
         mItemNameText = itemNameText;
         mItemDescriptionText = itemDescriptionText;
         mItemImage = itemImage;
