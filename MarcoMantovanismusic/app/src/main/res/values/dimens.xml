@@ -1,0 +1,22 @@
+<!--reference: Udacity Miwok's app dimens.xml file-->
+<resources>
+    <!-- Height of each list item -->
+    <dimen name="list_item_height">88dp</dimen>
+
+    <!-- Default screen margins -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- default margin and padding -->
+    <dimen name="padding">16dp</dimen>
+    <dimen name="margin">16dp</dimen>
+
+    <!-- default elevation (API >= 21) -->
+    <dimen name="elevation">16dp</dimen>
+
+    <!-- text dimensions -->
+    <dimen name="biggerTextSize">16sp</dimen>
+
+    <!-- list image dimensions (in item.xml) -->
+    <dimen name="list_image_dimension">48dp</dimen>
+</resources>

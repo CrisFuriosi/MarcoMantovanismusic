@@ -1,0 +1,175 @@
+<resources>
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">Marco Mantovani\'s music</string>
+
+    <!-- Category image [CHAR LIMIT=NONE] -->
+    <string name="resource_image">Category descriptive image</string>
+
+    <!-- Category names [CHAR LIMIT=30] -->
+    <string name="category_arrangements">Arrangements for bands</string>
+    <string name="category_transcriptions">Transcriptions for ensembles</string>
+    <string name="category_compositions">Compositions</string>
+    <string name="mp3">MP3 music</string>
+
+    <!-- Strings in Arrangements ArrayList: item name strings [CHAR LIMIT=NONE] -->
+    <string name="arragements_natale_name">E\' Natale !</string>
+    <string name="arragements_assolo_name">Assolo per Banda</string>
+    <string name="arragements_monelli_name">Monelli</string>
+    <string name="arragements_duetto_name">Duetto</string>
+    <string name="arragements_canzonetta_name">Canzonetta</string>
+
+    <!-- Strings in Arrangements ArrayList: item description strings [CHAR LIMIT=NONE] -->
+    <string name="arragements_natale_description">Score and parts for Wind and Percussion Orchestra.
+        Authors: Italian tradition / Marco Mantovani</string>
+    <string name="arragements_assolo_description">Score and parts for Wind Orchestra / Band. Author Gianluigi Centemeri, arrangement M. Mantovani</string>
+    <string name="arragements_monelli_description">Author Gianluigi Centemeri, arrangement M. Mantovani</string>
+    <string name="arragements_duetto_description"> Wind Orchestra / Band - Score and parts - Author Gianluigi Centemeri, arrangement M. Mantovani</string>
+    <string name="arragements_canzonetta_description"> - Wind Orchestra / Band - Score and parts. Author Gianluigi Centemeri, arrangement M. Mantovani</string>
+
+    <!-- Strings in Arrangements ArrayList: item URL strings [CHAR LIMIT=NONE] -->
+    <string name="arragements_natale_url">http://www.marcomantovani.name/wp/?wpfb_dl=47</string>
+    <string name="arragements_assolo_url">http://www.marcomantovani.name/wp/?wpfb_dl=46</string>
+    <string name="arragements_monelli_url">http://www.marcomantovani.name/wp/?wpfb_dl=30</string>
+    <string name="arragements_duetto_url">http://www.marcomantovani.name/wp/?wpfb_dl=29</string>
+    <string name="arragements_canzonetta_url">http://www.marcomantovani.name/wp/?wpfb_dl=28</string>
+
+    <!-- Strings in Compositions ArrayList: item name strings [CHAR LIMIT=NONE] -->
+    <string name="compositions_ninna1_name">Ninna Nanna</string>
+    <string name="compositions_signore_name">Il Signore è Il Mio Pastore</string>
+    <string name="compositions_padre_name">Padre Nostro</string>
+    <string name="compositions_amici1_name">Amici Della Montagna (1)</string>
+    <string name="compositions_amici2_name">Amici Della Montagna (2)</string>
+    <string name="compositions_pittore1_name">Se fossi un pittore</string>
+    <string name="compositions_salmo130_name">Salmo 130</string>
+    <string name="compositions_ninna2_name">La ninna nanna</string>
+    <string name="compositions_preghiera_name">Preghiera per lo Spirito</string>
+    <string name="compositions_pittore2_name">Se fossi un pittore…</string>
+    <string name="compositions_sanctus_name">Sanctus - Coro a voci pari femminili</string>
+    <string name="compositions_manus_name">In manus tuas</string>
+    <string name="compositions_ave_name">Ave Maria</string>
+
+    <!-- Strings in Compositions ArrayList: item description strings [CHAR LIMIT=NONE] -->
+    <string name="compositions_ninna1_description">Double male and mixed chorus</string>
+    <string name="compositions_signore_description">Salmo 22</string>
+    <string name="compositions_padre_description">Voice and Brass</string>
+    <string name="compositions_amici1_description">Male chorus</string>
+    <string name="compositions_amici2_description">Mixed chorus with 4 voices</string>
+    <string name="compositions_pittore1_description">Mixed chorus with 4 voices. Edmondo de Amicis - Marco Mantovani</string>
+    <string name="compositions_salmo130_description">Brass quintet and mixed chorus with 4 voices. Lyrics: Padre David Maria Turoldo</string>
+    <string name="compositions_ninna2_description">Flute, Clarinet and Mixed Choir - Score and parts</string>
+    <string name="compositions_preghiera_description">Solo Tenor. Chorus of first and second Tenors, baritones and basses</string>
+    <string name="compositions_pittore2_description">Chorus TTBB. Edmondo de Amicis - Marco Mantovani</string>
+    <string name="compositions_sanctus_description">Chorus with equal female voices</string>
+    <string name="compositions_manus_description">Chorus SSCTB. Lyrics: Giovanni Paolo II</string>
+    <string name="compositions_ave_description">Chorus SSCTB</string>
+
+    <!-- Strings in Compositions ArrayList: item URL strings [CHAR LIMIT=NONE] -->
+    <string name="compositions_ninna1_url">http://www.marcomantovani.name/wp/?wpfb_dl=55</string>
+    <string name="compositions_signore_url">http://www.marcomantovani.name/wp/?wpfb_dl=54</string>
+    <string name="compositions_padre_url">http://www.marcomantovani.name/wp/?wpfb_dl=52</string>
+    <string name="compositions_amici1_url">http://www.marcomantovani.name/wp/?wpfb_dl=49</string>
+    <string name="compositions_amici2_url">http://www.marcomantovani.name/wp/?wpfb_dl=48</string>
+    <string name="compositions_pittore1_url">http://www.marcomantovani.name/wp/?wpfb_dl=42</string>
+    <string name="compositions_salmo130_url">http://www.marcomantovani.name/wp/?wpfb_dl=41</string>
+    <string name="compositions_ninna2_url">http://www.marcomantovani.name/wp/?wpfb_dl=36</string>
+    <string name="compositions_preghiera_url">http://www.marcomantovani.name/wp/?wpfb_dl=15</string>
+    <string name="compositions_pittore2_url">http://www.marcomantovani.name/wp/?wpfb_dl=14</string>
+    <string name="compositions_sanctus_url">http://www.marcomantovani.name/wp/?wpfb_dl=13</string>
+    <string name="compositions_manus_url">http://www.marcomantovani.name/wp/?wpfb_dl=12</string>
+    <string name="compositions_ave_url">http://www.marcomantovani.name/wp/?wpfb_dl=11</string>
+
+    <!-- Strings in Transcriptions ArrayList: item name strings [CHAR LIMIT=NONE] -->
+    <string name="transcriptions_padre_name">Padre Nostro per Organo</string>
+    <string name="transcriptions_fuga_name">Fuga Super: Jesus Christus, Unser Heiland</string>
+    <string name="transcriptions_panis_name">Panis angelicus</string>
+    <string name="transcriptions_montanara_name">La Montanara</string>
+    <string name="transcriptions_538_name">Fuga Bwv 538</string>
+    <string name="transcriptions_891_name">Fuga Bwv 891</string>
+    <string name="transcriptions_883_name">Fuga Bwv 883</string>
+    <string name="transcriptions_849_name">Fuga Bwv 849</string>
+    <string name="transcriptions_wachet_name">Wachet Auf, Ruft Uns Die Stimme (Bwv 645)</string>
+    <string name="transcriptions_mission_name">Tema da "The Mission"</string>
+    <string name="transcriptions_cinema_name">Tema da "Nuovo Cinema Paradiso"</string>
+    <string name="transcriptions_lieben_name">Wer Nur Den Lieben Gott Läßt Walten (BWV 647)</string>
+    <string name="transcriptions_ricercare_name">Ricercare a 6 (BWV 1079)</string>
+    <string name="transcriptions_thiefer_name">Aus Tiefer Not Schrei\' Ich Zu Dir (BWV 686)</string>
+    <string name="transcriptions_thron_name">Vor Deinen Thron Tret\' Ich</string>
+    <string name="transcriptions_trost_name">Christe, Aller Welt Trost (BWV 670)</string>
+
+    <!-- Strings in Transcriptions ArrayList: item description strings [CHAR LIMIT=NONE] -->
+    <string name="transcriptions_padre_description">Author: M. Giombini arrangement M. Mantovani</string>
+    <string name="transcriptions_fuga_description">Oboe, B flat Clarinet, English Horn and Bassoon. Author: J.S.Bach</string>
+    <string name="transcriptions_panis_description">Clarinet. Authors: C. Franck, M. Mantovani</string>
+    <string name="transcriptions_montanara_description">5-piece Mixed Choir adaptation. Authors: T. Ortelli, L. Pigarelli</string>
+    <string name="transcriptions_538_description">Oboe, Bassoon, Clarinet, Bass Clarinet, Trumpet, Trombone - Score and parts. Author: J.S. Bach - arrangement M. Mantovani</string>
+    <string name="transcriptions_891_description">Oboe, Clarinet, Trombone, Bass Clarinet - Score and parts. Author: J.S. Bach</string>
+    <string name="transcriptions_883_description">Oboe, English Clarinet, Bassoon - Score and parts. Author: J.S. Bach</string>
+    <string name="transcriptions_849_description">Quintet of Clarinets - Score and parts. Author: J.S. Bach</string>
+    <string name="transcriptions_wachet_description">Sax ensemble - Score and parts. Author: J.S. Bach - Arrangement M. Mantovani</string>
+    <string name="transcriptions_mission_description">Junior ensemble - Sax Soprano, 2 Trumpets, High Clarinet - Score and parts. Author: Ennio Morricone - Arrangement M. Mantovani</string>
+    <string name="transcriptions_cinema_description"> per Ensemble giovanile, Fl., Clarinet. Mib, B flat Clarinet, Trumpet, Clarinet.Alto. Author: E. Morricone - Arrangement M. Mantovani</string>
+    <string name="transcriptions_lieben_description">Brass Quintet - Score and parts. Author: J.S. Bach</string>
+    <string name="transcriptions_ricercare_description">Oboe, Bassoon, Soprano and Bass Clarinet, Trumpet, Trombone. Author: J.S. Bach</string>
+    <string name="transcriptions_thiefer_description">Brass Septet - Score and parts. Author: J.S. Bach</string>
+    <string name="transcriptions_thron_description">Quartet of Clarinets. Author: J.S. Bach</string>
+    <string name="transcriptions_trost_description">Quartet of Clarinets. Author: J.S. Bach</string>
+
+    <!-- Strings in Transcriptions ArrayList: item URL strings [CHAR LIMIT=NONE] -->
+    <string name="transcriptions_padre_url">http://www.marcomantovani.name/wp/?wpfb_dl=64</string>
+    <string name="transcriptions_fuga_url">http://www.marcomantovani.name/wp/?wpfb_dl=63</string>
+    <string name="transcriptions_panis_url">http://www.marcomantovani.name/wp/?wpfb_dl=44</string>
+    <string name="transcriptions_montanara_url">http://www.marcomantovani.name/wp/?wpfb_dl=43</string>
+    <string name="transcriptions_538_url">http://www.marcomantovani.name/wp/?wpfb_dl=40</string>
+    <string name="transcriptions_891_url">http://www.marcomantovani.name/wp/?wpfb_dl=39</string>
+    <string name="transcriptions_883_url">http://www.marcomantovani.name/wp/?wpfb_dl=38</string>
+    <string name="transcriptions_849_url">http://www.marcomantovani.name/wp/?wpfb_dl=37</string>
+    <string name="transcriptions_wachet_url">http://www.marcomantovani.name/wp/?wpfb_dl=35</string>
+    <string name="transcriptions_mission_url">http://www.marcomantovani.name/wp/?wpfb_dl=33</string>
+    <string name="transcriptions_cinema_url">http://www.marcomantovani.name/wp/?wpfb_dl=32</string>
+    <string name="transcriptions_lieben_url">http://www.marcomantovani.name/wp/?wpfb_dl=27</string>
+    <string name="transcriptions_ricercare_url">http://www.marcomantovani.name/wp/?wpfb_dl=26</string>
+    <string name="transcriptions_thiefer_url">http://www.marcomantovani.name/wp/?wpfb_dl=25</string>
+    <string name="transcriptions_thron_url">http://www.marcomantovani.name/wp/?wpfb_dl=9</string>
+    <string name="transcriptions_trost_url">http://www.marcomantovani.name/wp/?wpfb_dl=7</string>
+
+    <!-- Strings in MusicSheetPdf Activities [CHAR LIMIT=25] -->
+    <string name="MusicSheetPdf">Pdf Music Sheets</string>
+    <string name="pdf_download_button">PDF download</string>
+
+    <!-- Strings in Mp3 ArrayList: item name strings [CHAR LIMIT=NONE] -->
+    <string name="mp3_christe_name">Christe, aller Welt trost Bwv 670</string>
+    <string name="mp3_ricercare_name">Ricercare a 6</string>
+    <string name="mp3_fuga891_name">Fuga Bwv 891</string>
+    <string name="mp3_fuga538_name">Fuga Bwv 538</string>
+    <string name="mp3_ninna_name">La Ninna Nanna</string>
+    <string name="mp3_salmo_name">Salmo 130</string>
+    <string name="mp3_sonatina1_name">Sonatina in la minore - Part one</string>
+    <string name="mp3_sonatina2_name">Sonatina in la minore - Part two</string>
+    <string name="mp3_sonatina3_name">Sonatina in la minore - Part three</string>
+
+    <!-- Strings in Mp3 ArrayList: item description strings [CHAR LIMIT=NONE] -->
+    <string name="mp3_christe_description">Authors: Bach-Mantovani</string>
+    <string name="mp3_ricercare_description">Authors: Bach-Mantovani</string>
+    <string name="mp3_fuga891_description">Authors: Bach-Mantovani</string>
+    <string name="mp3_fuga538_description">Authors: Bach-Mantovani</string>
+    <string name="mp3_ninna_description">Author: Marco Mantovani</string>
+    <string name="mp3_salmo_description">Author: Marco Mantovani</string>
+    <string name="mp3_sonatina1_description">Author: Gianluigi Centemeri - On the piano: M. Mantovani</string>
+    <string name="mp3_sonatina2_description">Author: Gianluigi Centemeri - On the piano: M. Mantovani</string>
+    <string name="mp3_sonatina3_description">Author: Gianluigi Centemeri - On the piano: M. Mantovani</string>
+
+    <!-- Strings in Mp3 ArrayList: item URL strings [CHAR LIMIT=NONE] -->
+    <string name="mp3_christe_url">http://www.marcomantovani.name/wp/?wpfb_dl=61</string>
+    <string name="mp3_ricercare_url">http://www.marcomantovani.name/wp/?wpfb_dl=60</string>
+    <string name="mp3_fuga891_url">http://www.marcomantovani.name/wp/?wpfb_dl=59</string>
+    <string name="mp3_fuga538_url">http://www.marcomantovani.name/wp/?wpfb_dl=58</string>
+    <string name="mp3_ninna_url">http://www.marcomantovani.name/wp/?wpfb_dl=57</string>
+    <string name="mp3_salmo_url">http://www.marcomantovani.name/wp/?wpfb_dl=56</string>
+    <string name="mp3_sonatina1_url">http://www.marcomantovani.name/wp/?wpfb_dl=31</string>
+    <string name="mp3_sonatina2_url">http://www.marcomantovani.name/wp/?wpfb_dl=24</string>
+    <string name="mp3_sonatina3_url">http://www.marcomantovani.name/wp/?wpfb_dl=23</string>
+
+    <!-- String in Mp3 Detail Activity (Button) [CHAR LIMIT=10] -->
+    <string name="mp3_play_button">Play</string>
+
+</resources>
